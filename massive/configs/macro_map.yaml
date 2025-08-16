@@ -1,0 +1,40 @@
+
+
+# Macro to MIDI CC map for Massive
+# Adjust CC numbers and destinations based on your DAW MIDI learn
+
+macros:
+  1:
+    cc: 21
+    destinations:
+      - OSC1 Pitch
+      - OSC2 Pitch
+  2:
+    cc: 22
+    destinations:
+      - Filter1 Cutoff
+      - Filter2 Cutoff
+  3:
+    cc: 23
+    destinations:
+      - Env1 Attack
+  4:
+    cc: 24
+    destinations:
+      - Env4 Release
+  5:
+    cc: 25
+    destinations:
+      - LFO5 Rate
+  6:
+    cc: 26
+    destinations:
+      - FX1 Dry/Wet
+  7:
+    cc: 27
+    destinations:
+      - Noise Color
+  8:
+    cc: 28
+    destinations:
+      - Master Volume

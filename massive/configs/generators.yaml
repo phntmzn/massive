@@ -1,0 +1,30 @@
+
+
+
+# Batch generator recipes
+# Define what types of presets to generate and how many
+
+generators:
+  bass:
+    count: 50
+    template: presets/template_bass.json
+    randomizer: bass
+    output_dir: presets/exported/bass
+
+  lead:
+    count: 30
+    template: presets/template_lead.json
+    randomizer: lead
+    output_dir: presets/exported/lead
+
+  pad:
+    count: 20
+    template: presets/template_lead.json
+    randomizer: pad
+    output_dir: presets/exported/pad
+
+  pluck:
+    count: 20
+    template: presets/template_lead.json
+    randomizer: pluck
+    output_dir: presets/exported/pluck
